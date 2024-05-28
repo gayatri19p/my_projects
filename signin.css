@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;1,400;1,500;1,700&display=swap');
+
+:root{
+    --main-color:rgb(68, 51, 60);
+    --border-radius:95% 4% 97% 5% 4% 3% 95%;
+--border:2rem solid var(--main-color);
+--border-hover:2rem dashed var(--main-color);
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+.sign-up .body {
+    
+    background-color: #f2f2f2;
+  }
+  .sign-up{
+    background:url(/signin\ bg\ -\ Copy.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+  .sign-up .container {
+    margin-top: 80px;
+    width:100%;
+    padding:1rem 1.2rem;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    background:none;
+    text-transform: none;
+    color:var(--main-color);
+    margin-top: 150px;
+    
+  }
+  .sign-up .heading span h1{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color: var(--main-color);
+    font-size: 3rem;
+  }
+  
+    
+.sign-up.sign-up-form {
+    text-align: center;
+  }
+  
+   .sign-up.container img{
+    padding: 0;
+  
+  }
+  
+  .sign-up .container h3{
+    font-size: 20px;
+
+  }
+  .sign-up .form-group {
+    margin-bottom: 20px;
+    
+    margin:20px;
+    max-width: 50rem;
+    border-radius: var(--border-radius-hover);
+    padding:3rem;
+    border:var(--border);
+  }
+  
+  .sign-up label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .sign-up input[type="text"],
+  .sign-up input[type="password"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid var(--main-color);
+    border-radius: 6px;
+    font-size: 1.7rem;
+  }
+  .sign-up .btn{
+    display: inline-block;
+    padding:.8rem 2.5rem;
+    border-radius: var(--border-radius);
+    color:var(#333);
+    background: none;
+    border:var(--border);
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+}
+.sign-up .btn:hover {
+      border-radius: var(--border-radius-hover);
+      border:var(--border-hover);
+  }
+ 
+  .sign-up .form-footer {
+    margin-top: 20px;
+  }
+  
+  .sign-up .form-footer p {
+    margin: 0;
+  }
+  
+  .sign-up .form-footer a {
+    color: #4caf50;
+    text-decoration: none;
+  }
+  
+  .sign-up .form-footer a:hover {
+    text-decoration: underline;
+  }
+  .header .icons div {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background-origin: #eee;
+    color: var(--blue);
+    font-size: 2rem;
+    margin-left: .5rem;
+    cursor: pointer;
+    text-align: center;
+  
+  }
+  
+  .header .icons div:hover {
+    background: var(--orange);
+    color: #fff;
+  }
